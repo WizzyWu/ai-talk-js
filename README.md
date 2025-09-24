@@ -33,7 +33,7 @@ Make sure you have Node.js installed on your system.
 
 The backend service will start running on port 3001. You can access:
 
-- **OpenAPI Specification**: [Available through the Swagger UI at the above URL](http://localhost:3001/api-docs/)
+- **OpenAPI Specification**: http://localhost:3001/api-docs/
 
 ## Frontend Setup
 
