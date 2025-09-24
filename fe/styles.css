@@ -595,6 +595,158 @@ main {
     font-weight: 600;
 }
 
+/* Review Summarizer styles */
+.reviews-section, .summary-section {
+    margin-bottom: 30px;
+}
+
+.reviews-section h2, .summary-section h2 {
+    color: #1e88e5;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.reviews-container {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.review-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #e0e0e0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.review-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.review-card.positive {
+    border-left-color: #4caf50;
+}
+
+.review-card.negative {
+    border-left-color: #f44336;
+}
+
+.review-card.mixed {
+    border-left-color: #ff9800;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.review-author {
+    font-weight: bold;
+    color: #333;
+}
+
+.review-rating {
+    color: #ffc107;
+    font-size: 1.1em;
+}
+
+.review-date {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.review-text {
+    margin: 15px 0;
+    line-height: 1.6;
+    color: #444;
+}
+
+.review-sentiment {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.review-sentiment.positive {
+    background-color: #e8f5e8;
+    color: #2e7d32;
+}
+
+.review-sentiment.negative {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.review-sentiment.mixed {
+    background-color: #fff3e0;
+    color: #f57c00;
+}
+
+.summarize-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.summarize-button:hover:not(:disabled) {
+    background-color: #1976d2;
+}
+
+.summarize-button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+.summary-container {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary-content {
+    line-height: 1.8;
+    color: #333;
+}
+
+.summary-content h3 {
+    color: #1e88e5;
+    margin: 20px 0 10px 0;
+}
+
+.summary-content h4 {
+    color: #555;
+    margin: 15px 0 8px 0;
+}
+
+.summary-content ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.summary-content li {
+    margin: 5px 0;
+}
+
+.summary-content strong {
+    color: #1e88e5;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {

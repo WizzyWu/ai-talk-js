@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Bot</title>
+    <title>Review Summarizer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -27,33 +27,38 @@
     <div class="container">
         <!-- Navigation -->
         <nav class="navigation">
-            <a href="chat.html" class="nav-link active">💬 Chat Bot</a>
+            <a href="chat.html" class="nav-link">💬 Chat Bot</a>
             <a href="text-enhancer.html" class="nav-link">✨ Text Enhancer</a>
-            <a href="review-summarizer.html" class="nav-link">📝 Review Summarizer</a>
+            <a href="review-summarizer.html" class="nav-link active">📝 Review Summarizer</a>
         </nav>
         
         <header>
-            <h1>Chat Bot</h1>
+            <h1>Review Summarizer</h1>
             <div class="buttons-container">
                 <button id="debug-button" class="debug-button" title="Show debug info">Debug</button>
-                <button id="clear-button" class="clear-button" title="Clear conversation">Clear Chat</button>
+                <button id="summarize-button" class="summarize-button" title="Summarize reviews">Summarize Reviews</button>
             </div>
         </header>
         
         <main>
-            <!-- Messages container -->
-            <div class="messages-container" id="messages-container">
-                <!-- Messages will be displayed here -->
+            <!-- Reviews container -->
+            <div class="reviews-section">
+                <h2>Product Reviews</h2>
+                <div class="reviews-container" id="reviews-container">
+                    <!-- Reviews will be displayed here -->
+                </div>
             </div>
             
-            <!-- Input container -->
-            <div class="input-container">
-                <textarea id="message-input" placeholder="Type your message here..."></textarea>
-                <button id="send-button">Send</button>
+            <!-- Summary container -->
+            <div class="summary-section" id="summary-section" style="display: none;">
+                <h2>Summary</h2>
+                <div class="summary-container" id="summary-container">
+                    <!-- Summary will be displayed here -->
+                </div>
             </div>
         </main>
     </div>
 
-    <script src="app.js"></script>
+    <script src="review-summarizer.js"></script>
 </body>
 </html>

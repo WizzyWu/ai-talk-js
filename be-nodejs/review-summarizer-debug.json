@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-09-24T09:38:08.708Z",
+  "endpoint": "/api/summarize-reviews",
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are an expert product review analyst. Create a CONCISE summary for busy customers who want to quickly understand if this product is worth buying.\n\n## Requirements:\n- Maximum 2 short paragraphs\n- Focus on what matters most to buyers\n- Use simple, clear language\n- Be direct and actionable\n\n## Format:\nUse clean HTML with this structure:\n\n```html\n<h3>Quick Summary</h3>\n<p><strong>The Good:</strong> [Top 2-3 most mentioned positive points in one sentence]</p>\n<p><strong>The Concerns:</strong> [Top 2-3 most mentioned issues in one sentence] <strong>Bottom Line:</strong> [One clear sentence about who should buy this and who should skip it]</p>\n```\n\n## Guidelines:\n- Skip detailed explanations\n- Focus on patterns, not individual reviews  \n- Use conversational tone\n- Make it scannable in 30 seconds\n\nPlease analyze the following reviews and provide a brief summary:\n\n\nReview 1 - Rating: 5/5 (positive)\n\"Absolutely love this product! The quality is exceptional and it works exactly as described. Fast shipping and great customer service. Would definitely recommend to others.\"\n\nReview 2 - Rating: 2/5 (negative)\n\"Very disappointed with this purchase. The product arrived damaged and the customer service was unhelpful. It took weeks to get a replacement and even then the quality was poor.\"\n\nReview 3 - Rating: 4/5 (mixed)\n\"Good product overall. The design is nice and it serves its purpose well. However, I found it a bit overpriced for what you get. Delivery was quick though.\"\n\nReview 4 - Rating: 5/5 (positive)\n\"Outstanding quality and performance! This has exceeded my expectations in every way. The materials feel premium and the functionality is flawless. Worth every penny.\"\n\nReview 5 - Rating: 1/5 (negative)\n\"Terrible experience. The product broke after just one week of normal use. When I contacted support, they were rude and refused to help. Complete waste of money.\"\n\nReview 6 - Rating: 3/5 (mixed)\n\"It's okay, nothing special. Does what it's supposed to do but doesn't stand out from similar products. The price is reasonable but the build quality could be better.\"\n\nReview 7 - Rating: 4/5 (mixed)\n\"Pretty satisfied with this purchase. The product works well and looks good. Installation was straightforward. Only minor complaint is that it's a bit heavier than expected.\"\n\nReview 8 - Rating: 5/5 (positive)\n\"Fantastic product! Exactly what I needed and the quality is top-notch. Great value for money and excellent packaging. Will definitely buy from this company again.\"\n\nReview 9 - Rating: 3/5 (mixed)\n\"Mixed feelings about this product. It has some great features but also some annoying limitations. For the price, I expected better performance. Customer service was helpful though.\"\n\nReview 10 - Rating: 4/5 (mixed)\n\"Good solid product that does the job well. The design is sleek and modern. Setup was easy and it's been reliable so far. Would recommend, though there are cheaper alternatives available.\"\n"
+      }
+    ],
+    "prompt": "You are an expert product review analyst. Create a CONCISE summary for busy customers who want to quickly understand if this product is worth buying.\n\n## Requirements:\n- Maximum 2 short paragraphs\n- Focus on what matters most to buyers\n- Use simple, clear language\n- Be direct and actionable\n\n## Format:\nUse clean HTML with this structure:\n\n```html\n<h3>Quick Summary</h3>\n<p><strong>The Good:</strong> [Top 2-3 most mentioned positive points in one sentence]</p>\n<p><strong>The Concerns:</strong> [Top 2-3 most mentioned issues in one sentence] <strong>Bottom Line:</strong> [One clear sentence about who should buy this and who should skip it]</p>\n```\n\n## Guidelines:\n- Skip detailed explanations\n- Focus on patterns, not individual reviews  \n- Use conversational tone\n- Make it scannable in 30 seconds\n\nPlease analyze the following reviews and provide a brief summary:\n\n\nReview 1 - Rating: 5/5 (positive)\n\"Absolutely love this product! The quality is exceptional and it works exactly as described. Fast shipping and great customer service. Would definitely recommend to others.\"\n\nReview 2 - Rating: 2/5 (negative)\n\"Very disappointed with this purchase. The product arrived damaged and the customer service was unhelpful. It took weeks to get a replacement and even then the quality was poor.\"\n\nReview 3 - Rating: 4/5 (mixed)\n\"Good product overall. The design is nice and it serves its purpose well. However, I found it a bit overpriced for what you get. Delivery was quick though.\"\n\nReview 4 - Rating: 5/5 (positive)\n\"Outstanding quality and performance! This has exceeded my expectations in every way. The materials feel premium and the functionality is flawless. Worth every penny.\"\n\nReview 5 - Rating: 1/5 (negative)\n\"Terrible experience. The product broke after just one week of normal use. When I contacted support, they were rude and refused to help. Complete waste of money.\"\n\nReview 6 - Rating: 3/5 (mixed)\n\"It's okay, nothing special. Does what it's supposed to do but doesn't stand out from similar products. The price is reasonable but the build quality could be better.\"\n\nReview 7 - Rating: 4/5 (mixed)\n\"Pretty satisfied with this purchase. The product works well and looks good. Installation was straightforward. Only minor complaint is that it's a bit heavier than expected.\"\n\nReview 8 - Rating: 5/5 (positive)\n\"Fantastic product! Exactly what I needed and the quality is top-notch. Great value for money and excellent packaging. Will definitely buy from this company again.\"\n\nReview 9 - Rating: 3/5 (mixed)\n\"Mixed feelings about this product. It has some great features but also some annoying limitations. For the price, I expected better performance. Customer service was helpful though.\"\n\nReview 10 - Rating: 4/5 (mixed)\n\"Good solid product that does the job well. The design is sleek and modern. Setup was easy and it's been reliable so far. Would recommend, though there are cheaper alternatives available.\"\n"
+  },
+  "response": {
+    "id": "chatcmpl-CJGEswai1ARGwIWe1Gy92j1HGSgnE",
+    "object": "chat.completion",
+    "created": 1758706690,
+    "model": "gpt-4.1-2025-04-14",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "```html\n<h3>Quick Summary</h3>\n<p><strong>The Good:</strong> Many buyers praise the product’s high quality, attractive design, and reliable performance; fast shipping and helpful customer service are also noted by several users.</p>\n<p><strong>The Concerns:</strong> Some customers report issues with durability, unhelpful support, and question the value for the price. <strong>Bottom Line:</strong> Buy this if you value quality and reliability; skip it if you’re concerned about potential defects or want the best deal for your money.</p>\n```",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 663,
+      "completion_tokens": 118,
+      "total_tokens": 781,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_3502f4eb73"
+  }
+}

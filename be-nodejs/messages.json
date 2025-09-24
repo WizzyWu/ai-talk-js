@@ -3,6 +3,30 @@
     "id": 1,
     "content": "<div>\n    <h1>Welcome to the Chat Bot!</h1>\n    <p>This chat bot is designed to assist you with various tasks. You can ask questions, seek advice, or just have a friendly conversation.</p>\n    <p>To get started, simply type your message in the input box below and click \"Send\".</p>\n    <p>If you need help or want to see debug information, use the buttons at the top of the page.</p>\n    <p>Enjoy your experience!</p>\n</div>\n",
     "role": "assistant",
-    "timestamp": "2025-09-24T06:05:22.789Z"
+    "timestamp": "2025-09-24T09:25:08.704Z"
+  },
+  {
+    "id": 2,
+    "content": "What is the capital of Poland",
+    "role": "user",
+    "timestamp": "2025-09-24T09:25:34.495Z"
+  },
+  {
+    "id": 3,
+    "content": "<div>\n    <h2>Capital of Poland</h2>\n    <p>The capital of Poland is <strong>Warsaw</strong> (in Polish: <em>Warszawa</em>).</p>\n</div>",
+    "role": "assistant",
+    "timestamp": "2025-09-24T09:25:36.079Z"
+  },
+  {
+    "id": 4,
+    "content": "Tell me about it",
+    "role": "user",
+    "timestamp": "2025-09-24T09:25:45.111Z"
+  },
+  {
+    "id": 5,
+    "content": "<div>\n    <h2>About Warsaw</h2>\n    <p>\n        <strong>Warsaw</strong> (<em>Warszawa</em>) is the capital and largest city of Poland. Situated on the banks of the Vistula River, it is a vibrant metropolitan city with a population of over 1.7 million people.\n    </p>\n    <h3>Key Facts:</h3>\n    <ul>\n        <li><strong>History:</strong> Warsaw has a rich and complex history. It was almost entirely destroyed during World War II and later rebuilt, earning its Old Town a place on the UNESCO World Heritage List.</li>\n        <li><strong>Economy:</strong> It serves as the economic, political, and cultural center of Poland, hosting many national institutions and international companies.</li>\n        <li><strong>Culture:</strong> Warsaw is known for its music, museums, theaters, and vibrant nightlife. It is famous as the home of the renowned composer Frédéric Chopin.</li>\n        <li><strong>Landmarks:</strong> Notable landmarks include the Royal Castle, Łazienki Park, Palace of Culture and Science, Wilanów Palace, and the Warsaw Uprising Museum.</li>\n        <li><strong>Education:</strong> The city is home to several prestigious universities, such as the University of Warsaw and Warsaw University of Technology.</li>\n    </ul>\n    <p>\n        With its blend of historical charm and modern architecture, Warsaw is a dynamic city that continues to play a crucial role in European history and culture.\n    </p>\n</div>",
+    "role": "assistant",
+    "timestamp": "2025-09-24T09:25:51.411Z"
   }
 ]

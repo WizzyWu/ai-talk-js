@@ -8,6 +8,7 @@ import { specs } from './src/config/swagger.js';
 import { MessageStorageFactory } from './src/storage/MessageStorageFactory.js';
 import { createChatService } from './src/services/ChatService.js';
 import { createTextEnhancementService } from './src/services/TextEnhancementService.js';
+import { createReviewSummaryService } from './src/services/ReviewSummaryService.js';
 
 // Load environment variables from .env file
 dotenv.config();
@@ -33,6 +34,9 @@ const chatService = createChatService(messageStorage, requestStorage);
 
 // Initialize text enhancement service
 const textEnhancementService = createTextEnhancementService(requestStorage);
+
+// Initialize review summary service
+const reviewSummaryService = createReviewSummaryService(requestStorage);
 
 // Middleware
 app.use(bodyParser.json());
@@ -430,6 +434,104 @@ app.post('/api/enhance-text', async (req, res) => {
 
 /**
  * @openapi
+ * /api/summarize-reviews:
+ *   post:
+ *     summary: Summarize product reviews
+ *     description: Analyzes multiple product reviews and generates a comprehensive summary
+ *     tags:
+ *       - Reviews
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               reviews:
+ *                 type: array
+ *                 items:
+ *                   type: object
+ *                   properties:
+ *                     rating:
+ *                       type: integer
+ *                       minimum: 1
+ *                       maximum: 5
+ *                     text:
+ *                       type: string
+ *                     sentiment:
+ *                       type: string
+ *                       enum: [positive, negative, mixed]
+ *                   required:
+ *                     - rating
+ *                     - text
+ *             required:
+ *               - reviews
+ *     responses:
+ *       200:
+ *         description: Successfully generated review summary
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                 summary:
+ *                   type: string
+ *                   description: HTML formatted summary
+ *       400:
+ *         description: Invalid request data
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ *       500:
+ *         description: Server error
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ */
+app.post('/api/summarize-reviews', async (req, res) => {
+  try {
+    // Log request
+    console.log('POST /api/summarize-reviews request received');
+    
+    // Check if reviews array is provided
+    if (!req.body.reviews || !Array.isArray(req.body.reviews) || req.body.reviews.length === 0) {
+      return res.status(400).json({
+        success: false,
+        error: "Please provide a valid array of reviews"
+      });
+    }
+    
+    // Generate summary using the ReviewSummaryService
+    const summary = await reviewSummaryService.generateSummary(req.body.reviews);
+    
+    // Return the summary
+    res.status(200).json({
+      success: true,
+      summary: summary
+    });
+    
+  } catch (error) {
+    console.error('Error summarizing reviews:', error.message);
+    
+    // Provide more detailed error message
+    let errorMessage = "Error summarizing reviews";
+    if (error.message) {
+      errorMessage += `: ${error.message}`;
+    }
+    
+    res.status(500).json({
+      success: false,
+      error: errorMessage
+    });
+  }
+});
+
+/**
+ * @openapi
  * /api/requests:
  *   get:
  *     summary: Get all request logs
@@ -483,6 +585,69 @@ app.get('/api/requests', async (req, res) => {
   }
 });
 
+/**
+ * @openapi
+ * /api/review-debug:
+ *   get:
+ *     summary: Get latest review summarizer debug information
+ *     description: Returns the latest request and response for review summarization for debugging
+ *     tags:
+ *       - Debug
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved debug information
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                 debugInfo:
+ *                   type: object
+ *                   description: Latest debug information
+ *       404:
+ *         description: No debug information found
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ *       500:
+ *         description: Server error
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ */
+app.get('/api/review-debug', async (req, res) => {
+  try {
+    // Log request
+    console.log('GET /api/review-debug request received');
+    
+    // Get debug info from the review summary service
+    const debugInfo = await reviewSummaryService.debugStorage.getDebugInfo();
+    
+    if (!debugInfo) {
+      return res.status(404).json({
+        success: false,
+        error: "No debug information found"
+      });
+    }
+    
+    // Return the debug information
+    res.status(200).json({
+      success: true,
+      debugInfo: debugInfo
+    });
+  } catch (error) {
+    console.error('Error retrieving review debug info:', error);
+    res.status(500).json({
+      success: false,
+      error: "Server error while retrieving debug information"
+    });
+  }
+});
+
 // Root route
 app.get('/', (req, res) => {
   res.send(`
@@ -495,6 +660,7 @@ app.get('/', (req, res) => {
       <li>DELETE /api/messages - Clear all messages</li>
       <li>POST /api/chat - Chat with LLM</li>
       <li>POST /api/enhance-text - Enhance text using AI</li>
+      <li>POST /api/summarize-reviews - Summarize product reviews</li>
       <li>GET /api/requests - Get all request logs</li>
     </ul>
   `);
