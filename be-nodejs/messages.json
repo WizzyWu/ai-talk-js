@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "content": "<div>\n    <h1>Welcome to the Chat Bot!</h1>\n    <p>This chat bot is designed to assist you with various tasks. You can ask questions, seek advice, or just have a friendly conversation.</p>\n    <p>To get started, simply type your message in the input box below and click \"Send\".</p>\n    <p>If you need help or want to see debug information, use the buttons at the top of the page.</p>\n    <p>Enjoy your experience!</p>\n</div>\n",
+    "role": "assistant",
+    "timestamp": "2025-09-24T06:05:22.789Z"
+  }
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Debug Modal -->
+    <div id="debug-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Debug Information</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <h3>API Requests</h3>
+                <div id="requests-container">
+                    <!-- Requests will be displayed here as spoilers -->
+                    <div class="loading">Loading requests...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Chat Bot</h1>
+            <div class="buttons-container">
+                <button id="debug-button" class="debug-button" title="Show debug info">Debug</button>
+                <button id="clear-button" class="clear-button" title="Clear conversation">Clear Chat</button>
+            </div>
+        </header>
+        
+        <main>
+            <!-- Messages container -->
+            <div class="messages-container" id="messages-container">
+                <!-- Messages will be displayed here -->
+            </div>
+            
+            <!-- Input container -->
+            <div class="input-container">
+                <textarea id="message-input" placeholder="Type your message here..."></textarea>
+                <button id="send-button">Send</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
