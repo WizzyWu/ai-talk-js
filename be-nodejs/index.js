@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 import { specs } from './src/config/swagger.js';
 import { MessageStorageFactory } from './src/storage/MessageStorageFactory.js';
 import { createChatService } from './src/services/ChatService.js';
+import { createTextEnhancementService } from './src/services/TextEnhancementService.js';
 
 // Load environment variables from .env file
 dotenv.config();
@@ -29,6 +30,9 @@ const requestStorage = MessageStorageFactory.getRequestStorage('file', {
 
 // Initialize chat service
 const chatService = createChatService(messageStorage, requestStorage);
+
+// Initialize text enhancement service
+const textEnhancementService = createTextEnhancementService(requestStorage);
 
 // Middleware
 app.use(bodyParser.json());
@@ -322,6 +326,110 @@ app.post('/api/chat', async (req, res) => {
 
 /**
  * @openapi
+ * /api/enhance-text:
+ *   post:
+ *     summary: Enhance text using AI
+ *     description: Takes user text and returns an enhanced version using AI
+ *     tags:
+ *       - Text Enhancement
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - text
+ *             properties:
+ *               text:
+ *                 type: string
+ *                 description: The text content to enhance
+ *                 example: "this is some text that need to be improve and fix grammar errors"
+ *           examples:
+ *             example1:
+ *               summary: Text with grammar issues
+ *               value:
+ *                 text: "this is some text that need to be improve and fix grammar errors"
+ *             example2:
+ *               summary: Simple text
+ *               value:
+ *                 text: "Hello world how are you doing today"
+ *     responses:
+ *       200:
+ *         description: Text enhanced successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                   example: true
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     originalText:
+ *                       type: string
+ *                       example: "this is some text that need to be improve"
+ *                     enhancedText:
+ *                       type: string
+ *                       example: "This is some text that needs to be improved."
+ *                     timestamp:
+ *                       type: string
+ *                       format: date-time
+ *       400:
+ *         description: Bad request - missing or invalid text
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ *       500:
+ *         description: Server error
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ */
+app.post('/api/enhance-text', async (req, res) => {
+  try {
+    // Log request
+    console.log('POST /api/enhance-text request received');
+    
+    // Check if text content is provided
+    if (!req.body.text || typeof req.body.text !== 'string' || req.body.text.trim().length === 0) {
+      return res.status(400).json({
+        success: false,
+        error: "Please provide valid text content to enhance"
+      });
+    }
+    
+    // Enhance the text using the TextEnhancementService
+    const enhancementResult = await textEnhancementService.enhanceText(req.body.text);
+    
+    // Return the enhanced text
+    res.status(200).json({
+      success: true,
+      data: enhancementResult
+    });
+    
+  } catch (error) {
+    console.error('Error enhancing text:', error.message);
+    
+    // Provide more detailed error message
+    let errorMessage = "Error enhancing text";
+    if (error.message) {
+      errorMessage += `: ${error.message}`;
+    }
+    
+    res.status(500).json({
+      success: false,
+      error: errorMessage
+    });
+  }
+});
+
+/**
+ * @openapi
  * /api/requests:
  *   get:
  *     summary: Get all request logs
@@ -386,6 +494,7 @@ app.get('/', (req, res) => {
       <li>GET /api/messages - Get all messages</li>
       <li>DELETE /api/messages - Clear all messages</li>
       <li>POST /api/chat - Chat with LLM</li>
+      <li>POST /api/enhance-text - Enhance text using AI</li>
       <li>GET /api/requests - Get all request logs</li>
     </ul>
   `);

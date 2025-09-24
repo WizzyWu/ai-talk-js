@@ -1,1 +1,1066 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "tbh ur right bout that...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "tbh ur right bout that but ngl i dont think its gonna work cuz like everyone knows its sus af and ppl r gonna be like wtf is this even supposed 2 mean lol"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDUUhcFpPX1IPU30WSCbogej3AJA",
+        "object": "chat.completion",
+        "created": 1758696126,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "To be honest, you’re right about that, but not gonna lie, I don’t think it’s going to work because everyone knows it’s super suspicious. People are going to be like, “What is this even supposed to mean?”",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 48,
+          "total_tokens": 243,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:42:05.468Z"
+  },
+  {
+    "id": 2,
+    "title": "tbh ur right bout that...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "tbh ur right bout that but ngl i dont think its gonna work cuz like everyone knows its sus af and ppl r gonna be like wtf is this even supposed 2 mean lol"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDW8nrwK2W5a04wJFWQ6M4uroO3Z",
+        "object": "chat.completion",
+        "created": 1758696228,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "To be honest, you're right about that, but not gonna lie—I don't think it's going to work because everyone knows it's super suspicious. People are going to be like, \"What is this even supposed to mean?\"",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 43,
+          "total_tokens": 238,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:43:47.183Z"
+  },
+  {
+    "id": 3,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDZXWqo9Eou4jvOIN6CEJr5HPXgm",
+        "object": "chat.completion",
+        "created": 1758696439,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is honestly so cringe—I can’t even. Why would you post this right now when everyone can see how fake you’re being? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 38,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:47:18.095Z"
+  },
+  {
+    "id": 4,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDaaUwUIQyCsvkWihRe1JPGxdNXk",
+        "object": "chat.completion",
+        "created": 1758696504,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my god, this is honestly so cringe—I can’t even. Why would you post this right now when everyone can see you’re being so fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 38,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:48:22.870Z"
+  },
+  {
+    "id": 5,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDb52FANI0d3gV35xutQZgcDjq5C",
+        "object": "chat.completion",
+        "created": 1758696535,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is so cringeworthy—I can't even. Why would you post this right now when everyone can see you're being so fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 37,
+          "total_tokens": 226,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:48:53.696Z"
+  },
+  {
+    "id": 6,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDb9jOh2yTdmq9WtuqCypOYalXJv",
+        "object": "chat.completion",
+        "created": 1758696539,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my god, this is honestly so cringe—I can't even. Why would you post this right now when everyone can tell you're being so fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 36,
+          "total_tokens": 225,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:48:57.306Z"
+  },
+  {
+    "id": 7,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDbDiuKt08QA5E4JWWBsLp5aRYNw",
+        "object": "chat.completion",
+        "created": 1758696543,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is honestly so cringeworthy—I can't even deal. Why would you post this right now when everyone can see how fake you're being? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 39,
+          "total_tokens": 228,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:49:02.022Z"
+  },
+  {
+    "id": 8,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDbU6NuKw7g1SESe6rhZh5x1BJOR",
+        "object": "chat.completion",
+        "created": 1758696560,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is honestly so cringeworthy—I can't even. Why would you post this right now when everyone can tell you're being so fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 38,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:49:18.254Z"
+  },
+  {
+    "id": 9,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDbYBFoZxa5kpHQZliiqxSHe4dgF",
+        "object": "chat.completion",
+        "created": 1758696564,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is honestly so cringeworthy—I can't even deal. Why would you post this right now when everyone can see you're being totally fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 39,
+          "total_tokens": 228,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:49:22.331Z"
+  },
+  {
+    "id": 10,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDbafMeexat8WGCOeNQaE6wv09Ds",
+        "object": "chat.completion",
+        "created": 1758696566,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my god, this is honestly so cringeworthy—I can’t even. Why would you post this right now when everyone can see you’re being so fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 40,
+          "total_tokens": 229,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:49:24.404Z"
+  },
+  {
+    "id": 11,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDbc6kxzBx390a9mQztmadvcdZWB",
+        "object": "chat.completion",
+        "created": 1758696568,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is honestly so cringe—I can't even. Why would you post this right now when it's obvious to everyone that you're being totally fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 38,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:49:26.258Z"
+  },
+  {
+    "id": 12,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDblibLGeRjzXSZsecdeIFxVJWiT",
+        "object": "chat.completion",
+        "created": 1758696577,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "OMG, this is seriously so cringeworthy—I can't even. Why would you post this right now when everyone can see how fake you're being? SMH. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 34,
+          "total_tokens": 223,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:49:35.707Z"
+  },
+  {
+    "id": 13,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDboNcxfD2i6l2tM3a2pR9cubpDY",
+        "object": "chat.completion",
+        "created": 1758696580,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "This is honestly so cringeworthy—I can't even. Why would you post this right now when everyone can see you're being completely fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 34,
+          "total_tokens": 223,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:49:38.857Z"
+  },
+  {
+    "id": 14,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDdtNh1DLfeearukgvexLMQXqX9J",
+        "object": "chat.completion",
+        "created": 1758696709,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is honestly so cringey—I can't even. Why would you post this right now when everyone can see you're being so fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 38,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:51:47.002Z"
+  },
+  {
+    "id": 15,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDdzdTdE15dvkpxnUUBJXEdukxQ4",
+        "object": "chat.completion",
+        "created": 1758696715,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is so cringeworthy—I can’t even. Why would you post this right now when everyone can see you’re being completely fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 39,
+          "total_tokens": 228,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:51:54.053Z"
+  },
+  {
+    "id": 16,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDe2a4JSYMA5qnyy16nidMIGglhh",
+        "object": "chat.completion",
+        "created": 1758696718,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is honestly so cringe—I can't even. Why would you post this right now when everyone can see you're being so fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 36,
+          "total_tokens": 225,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:51:56.999Z"
+  },
+  {
+    "id": 17,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDeTW7zBkewYV5fW9orkR2KjIfWj",
+        "object": "chat.completion",
+        "created": 1758696745,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is seriously so cringeworthy—I can't even. Why would you post this right now when everyone can see you're being so fake? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 38,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:52:23.208Z"
+  },
+  {
+    "id": 18,
+    "title": "omg this is literally so...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "omg this is literally so cringe i cant even... like why would u even post this rn when everyone can see ur being fake asf smh 💀"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDgcNRZyGnD1nimqhfOxE8ke684R",
+        "object": "chat.completion",
+        "created": 1758696878,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Oh my gosh, this is honestly so cringe—I can't even. Why would you post this right now when everyone can see how fake you're being? Shaking my head. 💀",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 36,
+          "total_tokens": 225,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:54:37.025Z"
+  },
+  {
+    "id": 19,
+    "title": "tbh ur right bout that...",
+    "content": {
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "<system>\n    You are a professional text editor and writing assistant. Your task is to enhance and improve text provided by users.\n\n    When enhancing text, you should:\n    - Improve grammar, spelling, and punctuation\n    - Enhance sentence structure and flow\n    - Make the text more readable and engaging\n    - Fix any obvious errors or inconsistencies\n    - Maintain the original meaning and tone\n    - Use proper formatting where appropriate\n    - Keep the same language as the original text\n\n    Provide only the enhanced version of the text without any explanations, comments, or additional content.\n    Do not add introductory phrases like \"Here is the enhanced text:\" or similar.\n    Return only the improved text.\n</system>\n"
+          },
+          {
+            "role": "user",
+            "content": "tbh ur right bout that but ngl i dont think its gonna work cuz like everyone knows its sus af and ppl r gonna be like wtf is this even supposed 2 mean lol"
+          }
+        ],
+        "model": "gpt-4.1-2025-04-14"
+      },
+      "response": {
+        "id": "chatcmpl-CJDh4ZdBl2bc2QdSeyTLRylTnjFRE",
+        "object": "chat.completion",
+        "created": 1758696906,
+        "model": "gpt-4.1-2025-04-14",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "To be honest, you're right about that, but not gonna lie, I don't think it's going to work because everyone knows it's super suspicious. People are going to be like, \"What is this even supposed to mean?\"",
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 44,
+          "total_tokens": 239,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_3502f4eb73"
+      }
+    },
+    "timestamp": "2025-09-24T06:55:04.967Z"
+  }
+]

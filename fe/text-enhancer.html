@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Enhancer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navigation">
+            <a href="chat.html" class="nav-link">💬 Chat Bot</a>
+            <a href="text-enhancer.html" class="nav-link active">✨ Text Enhancer</a>
+        </nav>
+        
+        <header>
+            <h1>AI Text Enhancer</h1>
+            <p class="subtitle">Improve your text with AI-powered enhancement</p>
+        </header>
+        
+        <main>
+            <!-- Input Section -->
+            <div class="input-section">
+                <label for="text-input">Enter text to enhance:</label>
+                <textarea id="text-input" 
+                    placeholder="Type or paste your text here..." 
+                    rows="8"></textarea>
+                <div class="button-container">
+                    <button id="enhance-button" class="primary-button">
+                        Enhance Text
+                    </button>
+                    <button id="clear-button" class="secondary-button">Clear</button>
+                </div>
+            </div>
+            
+            <!-- Results Section -->
+            <div id="results-section" class="results-section" style="display: none;">
+                <h3>Enhanced Text</h3>
+                <div class="comparison-container">
+                    <div class="text-block">
+                        <h4>Original Text</h4>
+                        <div id="original-text" class="text-display original"></div>
+                    </div>
+                    <div class="text-block">
+                        <h4>Enhanced Text</h4>
+                        <div id="enhanced-text" class="text-display enhanced"></div>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button id="apply-button" class="apply-button">Apply Changes</button>
+                    <button id="dismiss-button" class="dismiss-button">Dismiss</button>
+                </div>
+            </div>
+            
+            <!-- Error Section -->
+            <div id="error-section" class="error-section" style="display: none;">
+                <div class="error-message">
+                    <strong>Error:</strong> <span id="error-text"></span>
+                </div>
+                <button id="error-dismiss" class="dismiss-button">Dismiss</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="text-enhancer.js"></script>
+</body>
+</html>
